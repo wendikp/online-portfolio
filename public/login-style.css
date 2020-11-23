@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background: #040404 url("Personal/assets/img/bg/nikita-kachanovsky-OVbeSXRk_9E-unsplash-bottom.jpg") bottom right no-repeat;
+	background-size: cover;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 100vh;
+	z-index: -1;
+}
+
+.login-form {
+	width: 320px;
+	height: 450px;
+	background: rgb(70 72 72 / 35%);
+	padding: 80px 40px;
+	border-radius: 0px 80px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.login-form h4 {
+	text-align: center;
+	margin-bottom: 4px;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+
+.login-form h2 {
+	text-align: center;
+	margin-bottom: 5px;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+
+.login-form p {
+	font-size: 11px;
+	text-align: center;
+	margin-bottom: 35px;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+
+.txt {
+	border-bottom: 2px solid#adadad;
+	position: relative;
+	margin: 30px 0;
+}
+
+.txt input {
+	font-size: 15px;
+	color: #adadad;
+	border: none;
+	width: 100%
+	outline: none;
+	background: none;
+	padding: 0 5px 0 20px;
+	height: 40px;
+	outline: none;
+}
+
+span {
+	font-size: 15px;
+}
+
+.txt span::before {
+	content: attr(data-placeholder);
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	/*color: #adadad;*/
+	color: white;
+	transform: translateY(-50%);
+	z-index: -1;
+	transition: 0.4s;
+}
+
+.txt span::after {
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+	background: #c9a15d;
+	transition: 0.4s;
+}
+
+.focus + span::before {
+	top: -5px;
+}
+
+.focus + span::after {
+	width: 100%;
+}
+
+/*input {
+	outline: none;
+}*/
+
+.logbtn {
+	display: block;
+	width: 100%;
+	height: 45px;
+	font-size: 15px;
+	border: none;
+	background: #c9a15d;
+	background-size: 200%;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+	border-radius: 4px;
+}
+
+.logbtn:hover {
+	background: #b38942;
+}
+
+.bottom-text {
+	margin-top: 60px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.btn-back {
+	display: inline-block;
+	margin: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
