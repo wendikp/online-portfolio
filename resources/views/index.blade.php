@@ -489,13 +489,27 @@
 
         <div class="col-lg-6 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
+            <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/2021-01-20-1.png') }}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Website Internal Dirjend Bea Cukai Jatim II</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('Personal/assets/img/portfolio/humas-rt/2021-01-20-1.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
+                <a href="{{ url('/portfolio-1') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
             <img src="{{ asset('Personal/assets/img/portfolio/sistem-rekomendasi-peminatan/portfolio-details-2.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Sistem Rekomendasi Peminatan Siswa SMAN 06 Malang</h4>
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="{{ asset('Personal/assets/img/portfolio/sistem-rekomendasi-peminatan/portfolio-details-2.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
-                <a href="{{ url('/portfolio-1') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="{{ url('/portfolio-2') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
