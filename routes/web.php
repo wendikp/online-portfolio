@@ -24,6 +24,9 @@ Route::get('/form_login', 'PortfolioController@showLoginPage');
 Route::get('/portfolio-1', 'PortfolioController@showPortfolio1');
 Route::get('/portfolio-2', 'PortfolioController@showPortfolio2');
 Route::get('/portfolio-3', 'PortfolioController@showPortfolio3');
+Route::get('/portfolio-4', 'PortfolioController@showPortfolio4');
+Route::get('/portfolio-5', 'PortfolioController@showPortfolio5');
+Route::get('/portfolio-6', 'PortfolioController@showPortfolio6');
 Route::get('/sendEmail','EmailController@index');
 // Route untuk menampilkan waktu berjalan pada halaman login
 Route::get('/time', 'PortfolioController@showTime');

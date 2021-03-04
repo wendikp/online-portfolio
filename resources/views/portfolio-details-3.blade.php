@@ -27,7 +27,7 @@
               <li><strong>Klien</strong>: -</li>
               <li><strong>Tahun Projek</strong>: 2020</li>
               <li><strong>Status Projek</strong>: Tahap Pengerjaan</li>
-              <li><strong>URL Projek</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>URL Projek</strong>: <a href="#">Belum Tersedia</a></li>
             </ul>
 
             <p align="justify">

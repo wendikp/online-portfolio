@@ -18,6 +18,18 @@ class PortfolioController extends Controller
         return view('portfolio-details-3');
     }
 
+    public function showPortfolio4(){
+        return view('portfolio-details-4');
+    }
+
+    public function showPortfolio5(){
+        return view('portfolio-details-5');
+    }
+
+    public function showPortfolio6(){
+        return view('portfolio-details-6');
+    }
+
     public function showTime(){
     	return view('ajax_timestamp');
     }
