@@ -106,23 +106,23 @@
             <div class="col-lg-12">
               <ul>
                 <li><i class="icofont-rounded-right"></i> <strong>Tempat / Tanggal Lahir:</strong> Padang Panjang / 10 Desember 1994</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Umur:</strong> 
+                <!-- <li><i class="icofont-rounded-right"></i> <strong>Umur:</strong> 
                   <?php
-                  $curr_year = date('Y');
-                  $curr_date = date('d-m-Y');
-                  $birthday = '10-12-'.$curr_year;
+                  // $curr_year = date('Y');
+                  // $curr_date = date('d-m-Y');
+                  // $birthday = '10-12-'.$curr_year;
 
-                  if (strtotime('now') >= strtotime($birthday)) {
-                    echo $curr_year - 1994;
-                  } else {
-                    echo $curr_year - 1994 - 1; 
-                  } 
+                  // if (strtotime('now') >= strtotime($birthday)) {
+                  //   echo $curr_year - 1994;
+                  // } else {
+                  //   echo $curr_year - 1994 - 1; 
+                  // } 
                   ?>
-                </li>
+                </li> -->
                 <li><i class="icofont-rounded-right"></i> <strong>Pendidikan Terakhir:</strong> S1 Sistem Informasi</li>
                 <li><i class="icofont-rounded-right"></i> <strong>Gelar:</strong> Sarjana Komputer</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
                 <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> <a href="https://wkp-portfolio.online">wkp-portfolio.online</a></li>
                 <!-- <li><i class="icofont-rounded-right"></i> <strong>Jenis Kelamin:</strong> Laki-laki</li> -->
               </ul>
             </div>
@@ -136,7 +136,7 @@
             </div> -->
           </div>
           <p align="justify">
-            <em>Back-end developer</em> merupakan bagian dari <em>web developer</em> yang memiliki tanggung jawab pada sisi server atau dengan kata lain bertugas untuk memastikan sebuah <em>website</em> dapat bekerja sesuai dengan perencanaan, sekaligus bertanggung jawab dalam pembuatan <em>database</em>. <br/>Perkenalkan, saya <b>Wendi</b>, seorang <em>back-end developer</em> yang senang belajar hal baru terutama <em>web programming</em>. Sudah memiliki pengalaman baik sebagai <em>back-end developer</em> maupun <em>fullstack developer</em> yang dapat dibuktikan dengan pencapaian akademik serta <em>web project</em> yang telah diselesaikan pada saat magang dan tugas akhir (skripsi).
+            <em>Back-end developer</em> merupakan bagian dari <em>web developer</em> yang memiliki tanggung jawab pada sisi server atau dengan kata lain bertugas untuk memastikan sebuah <em>website</em> dapat bekerja sesuai dengan perencanaan, sekaligus bertanggung jawab dalam pembuatan <em>database</em>. <br />Perkenalkan, saya <b>Wendi</b>, seorang <em>back-end developer</em> yang senang belajar hal baru terutama <em>web programming</em>. Memiliki pengalaman baik sebagai <em>back-end developer</em> maupun <em>fullstack developer</em> yang dapat dibuktikan dengan pencapaian akademik serta <em>web project</em> yang telah diselesaikan pada saat magang, tugas akhir (skripsi), dan pelatihan online.
           </p>
         </div>
       </div>
@@ -159,7 +159,7 @@
         <div class="col-lg-6 col-md-6 mt-5 mt-md-0">
           <div class="count-box">
             <i class="icofont-document-folder"></i>
-            <span data-toggle="counter-up">3</span>
+            <span data-toggle="counter-up">6</span>
             <p>Projects</p>
           </div>
         </div>
@@ -223,6 +223,12 @@
           <div class="icon-box">
             <i class="devicon-jquery-plain colored"></i>
             <h3>JQuery</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4" style="margin: auto;">
+          <div class="icon-box">
+            <i class="devicon-react-original colored"></i>
+            <h3>ReactJS</h3>
           </div>
         </div>
       </div>
@@ -338,6 +344,24 @@
         <div class="col-lg-3">
           <h3 class="resume-title">Web Project</h3>
           <div class="resume-item">
+            <h4>MOVIEPedia</h4>
+            <h5>2021</h5>
+            <p><em>Fullstack Developer</em></p>
+            <p style="text-align: justify; font-size: 14px;">Membuat aplikasi sederhana untuk mencari informasi seputar film dengan memanfaatkan OMDb API.</p>
+          </div>
+          <div class="resume-item">
+            <h4>Todo App</h4>
+            <h5>2020</h5>
+            <p><em>Fullstack Developer</em></p>
+            <p style="text-align: justify; font-size: 14px;">Membuat aplikasi sederhana untuk membuat daftar tugas dengan memanfaatkan ReactJS.</p>
+          </div>
+          <div class="resume-item">
+            <h4>MyPlayer</h4>
+            <h5>2020</h5>
+            <p><em>Fullstack Developer</em></p>
+            <p style="text-align: justify; font-size: 14px;">Membuat aplikasi sederhana untuk pemutar musik dengan memanfaatkan ReactJS.</p>
+          </div>
+          <div class="resume-item">
             <h4>Online Portfolio : Web-based</h4>
             <h5>2020</h5>
             <p><em>Fullstack Developer</em></p>
@@ -358,6 +382,13 @@
         </div>
         <div class="col-lg-3">
           <h3 class="resume-title">Pelatihan dan Webinar</h3>
+          <div class="resume-item">
+            <h4>Mahir Membuat Website Modern dengan ReactJS</h4>
+            <h5>Februari 2021</h5>
+            <p><em>Pelatihan online dari CodingStudio</em></p>
+            <p style="text-align: justify; font-size: 14px;">Mempelajari tentang penggunaan library ReactJS melalui kursus online
+              Coding Studio.</p>
+          </div>
           <div class="resume-item">
             <h4>Mahir Membuat Tampilan Website Responsif</h4>
             <h5>22 Oktober 2020 - 7 November 2020</h5>
@@ -681,16 +712,16 @@
       <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
         <div class="form-row">
           <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
             <div class="validate"></div>
           </div>
           <div class="col-md-6 form-group">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"/>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
             <div class="validate"></div>
           </div>
         </div>
         <div class="form-group">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"/>
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
           <div class="validate"></div>
         </div>
         <div class="form-group">
@@ -709,10 +740,10 @@
   </section><!-- End Contact Section -->
 
   <!-- <div class="credits"> -->
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+  <!-- All the links in the footer should remain intact. -->
+  <!-- You can delete the links only if you purchased the pro version. -->
+  <!-- Licensing information: https://bootstrapmade.com/license/ -->
+  <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
   <!--   Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
   </div> -->
 
