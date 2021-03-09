@@ -26,7 +26,7 @@
               <li><strong>Kategori</strong>: Web Development</li>
               <li><strong>Klien</strong>: SMAN 06 Malang, Jawa Timur</li>
               <li><strong>Tahun Projek</strong>: 2019</li>
-              <li><strong>URL Projek</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>URL Projek</strong>: <a href="#">Belum Tersedia</a></li>
             </ul>
 
             <p align="justify">

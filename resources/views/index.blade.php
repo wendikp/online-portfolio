@@ -517,44 +517,91 @@
       </div>
 
       <div class="row portfolio-container">
-
+        <!-- MOVIEPedia -->
         <div class="col-lg-6 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/2021-01-20-1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('Personal/assets/img/portfolio/moviepedia/home.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Website Internal Dirjend Bea Cukai Jatim II</h4>
+              <h4>MOVIEPedia</h4>
               <p>Web</p>
               <div class="portfolio-links">
-                <a href="{{ asset('Personal/assets/img/portfolio/humas-rt/2021-01-20-1.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
-                <a href="{{ url('/portfolio-1') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="{{ asset('Personal/assets/img/portfolio/moviepedia/home.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
+                <a href="{{ url('/portfolio-4') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Sisrek-Vidyagata -->
         <div class="col-lg-6 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{{ asset('Personal/assets/img/portfolio/sistem-rekomendasi-peminatan/portfolio-details-2.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('Personal/assets/img/portfolio/sistem-rekomendasi-peminatan/home.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Sistem Rekomendasi Peminatan Siswa SMAN 06 Malang</h4>
               <p>Web</p>
               <div class="portfolio-links">
-                <a href="{{ asset('Personal/assets/img/portfolio/sistem-rekomendasi-peminatan/portfolio-details-2.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
+                <a href="{{ asset('Personal/assets/img/portfolio/sistem-rekomendasi-peminatan/home.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
                 <a href="{{ url('/portfolio-2') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
+        <!-- Website Internal Kanwil DJBC Jatim II -->
         <div class="col-lg-6 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="{{ asset('Personal/assets/img/portfolio/portfolio-online/portfolio-1.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/home.png') }}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Website Internal Dirjend Bea Cukai Jatim II</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('Personal/assets/img/portfolio/humas-rt/home.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
+                <a href="{{ url('/portfolio-1') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio Online : Web-based -->
+        <div class="col-lg-6 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('Personal/assets/img/portfolio/portfolio-online/home.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Portfolio Online : Web-based</h4>
               <p>Web</p>
               <div class="portfolio-links">
-                <a href="{{ asset('Personal/assets/img/portfolio/portfolio-online/portfolio-1.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
+                <a href="{{ asset('Personal/assets/img/portfolio/portfolio-online/home.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
                 <a href="{{ url('/portfolio-3') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MyPlayer -->
+        <div class="col-lg-6 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('Personal/assets/img/portfolio/media-player/home.png') }}" class="img-fluid" alt="" height="970">
+            <div class="portfolio-info">
+              <h4>MyPlayer</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('Personal/assets/img/portfolio/media-player/home.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
+                <a href="{{ url('/portfolio-5') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Todo App -->
+        <div class="col-lg-6 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{{ asset('Personal/assets/img/portfolio/todo-app/todo-1.png') }}" class="img-fluid" alt="" height="970">
+            <div class="portfolio-info">
+              <h4>ToDo App</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="{{ asset('Personal/assets/img/portfolio/todo-app/todo-1.png') }}" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-search"></i></a>
+                <a href="{{ url('/portfolio-6') }}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>

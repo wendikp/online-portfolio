@@ -12,9 +12,14 @@
           <div class="col-lg-8">
             <h2 class="portfolio-title">Sistem Informasi Perlengkapan Divisi Rumah Tangga Kanwil DJBC Jatim II</h2>
             <div class="owl-carousel portfolio-details-carousel">
+              <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/login.png') }}" class="img-fluid" alt="">
               <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/2021-01-20-1.png') }}" class="img-fluid" alt="">
               <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/2021-01-20.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/Screenshot_2021-03-01.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/artikel.png') }}" class="img-fluid" alt="">
               <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/2021-01-20-2.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/permintaan-atk.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('Personal/assets/img/portfolio/humas-rt/permintaanatk.png') }}" class="img-fluid" alt="">
             </div>
           </div>
 
@@ -24,7 +29,7 @@
               <li><strong>Kategori</strong>: Web Development</li>
               <li><strong>Klien</strong>: Kanwil DJBC Jatim II</li>
               <li><strong>Tahun Projek</strong>: 2017</li>
-              <li><strong>URL Projek</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>URL Projek</strong>: <a href="#">Belum Tersedia</a></li>
             </ul>
 
             <p align="justify">
